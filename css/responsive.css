@@ -1,0 +1,350 @@
+/* --- ALLGEMEINE MEDIA QUERIES --- */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .slide-inhalt .titel {
+        font-size: 65px;
+        line-height: 70px; 
+    } 
+    .slide-inhalt .text .slide-titel {
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .slide-inhalt {
+        padding-top: 115px;
+        padding-bottom: 90px; 
+    }
+    .einzelne-dienstleistungen .dienstleistungen-titel-icon .dienstleistungen-titel a {
+        font-size: 24px;
+        line-height: 35px; 
+    } 
+    .preis-aussehen .preis-beschreibung ul li {
+        font-size: 14px;
+        margin-top: 12px; 
+    } 
+    .meinung-container .meinung-container-links .titel {
+        font-size: 30px; 
+    } 
+    .meinung-container .meinung-container-inhalt {
+        left: 0; 
+    } 
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slide-inhalt .titel {
+        font-size: 55px;
+        line-height: 65px; 
+        margin-bottom: 0;
+    } 
+    .slide-inhalt .text .slide-titel {
+        font-size: 35px;
+        line-height: 30px;
+        margin-bottom: 2.5%;
+        position: relative;
+        bottom: 5px;
+    }
+    .slide-inhalt {
+        padding-top: 80px;
+        padding-bottom: 100px; 
+    }
+    .carousel-indicators li {
+        width: 13px;
+        height: 13px; 
+    } 
+    .carousel-indicators li.active {
+        width: 23px; 
+    } 
+    .carousel .carousel-control-prev, .carousel .carousel-control-next {
+        display: none; 
+    } 
+    .carousel .carousel-control-next {
+        right: 30px; 
+    } 
+    .navbar-area .navbar .navbar-collapse {
+        position: absolute;
+        top: 115%;
+        left: 0;
+        width: 100%;
+        background-color: #f4f6f7;
+        z-index: 8;
+        padding: 10px 0;
+        box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05); 
+    } 
+    .navbar-area .navbar .navbar-nav .nav-item a {
+        padding: 10px 0;
+        display: block;
+        color: #121212; 
+    } 
+    .navbar-area .navbar .navbar-nav .nav-item a::before {
+        display: none; 
+    } 
+    .navbar-area .navbar .navbar-nav .nav-item.active > a, .navbar-area .navbar .navbar-nav .nav-item:hover > a {
+        color: #121212; 
+    } 
+    .navbar-area .navbar .navbar-btn {
+        position: absolute;
+        right: 70px;
+        top: 7px; 
+    } 
+    .portfolio-menu ul li {
+        font-size: 14px;
+        padding: 0 26px; 
+    } 
+    .einzelne-meinung {
+        margin: 25px;
+    }
+}
+@media only screen and (min-width: 580px) and (max-width: 767px) {
+    .slide-inhalt {
+        padding-top: 80px;
+        padding-bottom: 75px; 
+    } 
+    .slide-inhalt .titel {
+        font-size: 40px;
+        line-height: 45px; 
+        margin-bottom: 0;
+    } 
+    .slide-inhalt .text .slide-titel {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 2.25%;
+        position: relative;
+        bottom: 5px;
+    }
+    .carousel-indicators li {
+        width: 13px;
+        height: 13px; 
+    } 
+    .slide-inhalt .slide-button li {
+        margin: 16px 3px 0; 
+    } 
+    .carousel-indicators li.active {
+        width: 23px; 
+    } 
+    .carousel .carousel-control-prev, .carousel .carousel-control-next {
+        display: none; 
+    } 
+    .carousel .carousel-control-next {
+        right: 30px; 
+    } 
+}
+@media only screen and (min-width: 496px) and (max-width: 579px) {
+    .slide-inhalt {
+        padding-top: 70px;
+        padding-bottom: 65px; 
+    } 
+    .slide-inhalt .titel {
+        font-size: 40px;
+        line-height: 45px; 
+    } 
+    .slide-inhalt .text .slide-titel {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 2.25%;
+        position: relative;
+        bottom: 5px;
+    }
+    .carousel .carousel-control-prev, .carousel .carousel-control-next {
+        display: none; 
+    } 
+    .slide-inhalt .text > img {
+        height: 135px;
+    }
+}
+@media only screen and (min-width: 438px) and (max-width: 495px) {
+    .slide-inhalt {
+        padding-top: 60px;
+        padding-bottom: 65px; 
+    } 
+    .slide-inhalt .titel {
+        font-size: 35px;
+        line-height: 42.5px; 
+    } 
+    .slide-inhalt .text .slide-titel {
+        font-size: 21px;
+        line-height: 25px;
+        margin-bottom: 2.25%;
+        position: relative;
+        bottom: 5px;
+    }
+    .carousel .carousel-control-prev, .carousel .carousel-control-next {
+        display: none; 
+    } 
+    .slide-inhalt .text > img {
+        height: 115px;
+    }
+    .slide-inhalt .text {
+        color: #fff;
+        font-size: 14.5px;
+        line-height: 17.5px;
+        margin-top: 12.5px; 
+    }
+}
+@media only screen and (min-width: 385px) and (max-width: 437px) {
+    .slide-inhalt {
+        padding-top: 55px;
+        padding-bottom: 65px; 
+    } 
+    .slide-inhalt .titel {
+        font-size: 30px;
+        line-height: 40px; 
+    } 
+    .slide-inhalt .text .slide-titel {
+        font-size: 19px;
+        line-height: 20px;
+        margin-bottom: 2%;
+        position: relative;
+        bottom: 5px;
+    }
+    .carousel .carousel-control-prev, .carousel .carousel-control-next {
+        display: none; 
+    } 
+    .slide-inhalt .text > img {
+        height: 100px;
+    }
+    .slide-inhalt .text {
+        color: #fff;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 10px; 
+    }
+}
+@media (max-width: 384px) {
+    .slide-inhalt {
+        padding-top: 52.5px;
+        padding-bottom: 60px; 
+    } 
+    .slide-inhalt .titel {
+        font-size: 27.5px;
+        line-height: 40px; 
+    } 
+    .slide-inhalt .text .slide-titel {
+        font-size: 17.5px;
+        line-height: 20px;
+        margin-bottom: 1.8%;
+        position: relative;
+        bottom: 5px;
+    }
+    .carousel .carousel-control-prev, .carousel .carousel-control-next {
+        display: none; 
+    } 
+    .slide-inhalt .text > img {
+        height: 90px;
+    }
+    .slide-inhalt .text {
+        color: #fff;
+        font-size: 13.5px;
+        line-height: 15px;
+        margin-top: 8px; 
+    }
+}
+/* --- ALLGEMEIN SPEZIFISCH MEDIA QUERIES --- */
+@media (max-width: 767px) {
+    .section-titel .titel {
+        font-size: 30px;
+        line-height: 35px; 
+    } 
+    .main-button {
+        font-size: 14px;
+        padding: 0 20px;
+        line-height: 40px; 
+    }
+    .runde-buttons ul li {
+        margin-left: 0; 
+    } 
+    .navbar-area .navbar .navbar-collapse {
+        position: absolute;
+        top: 115%;
+        left: 0;
+        width: 100%;
+        background-color: #f4f6f7;
+        z-index: 8;
+        padding: 10px 0;
+        box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05); 
+    } 
+    .navbar-area .navbar .navbar-nav .nav-item a {
+        padding: 10px 0;
+        display: block;
+        color: #121212; 
+    } 
+    .navbar-area .navbar .navbar-nav .nav-item a::before {
+        display: none; 
+    } 
+    .navbar-area .navbar .navbar-nav .nav-item.active > a, .navbar-area .navbar .navbar-nav .nav-item:hover > a {
+        color: #121212; 
+    } 
+    .navbar-area .navbar .navbar-btn {
+      position: absolute;
+      right: 60px;
+      top: 7px; 
+    } 
+    .einzelne-dienstleistungen .dienstleistungen-titel-icon .dienstleistungen-titel a {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .portfolio-menu ul li {
+        font-size: 14px;
+        padding: 0 22px;
+        line-height: 42px;
+    } 
+    .schliessfach-arten .schliessfach-bilder {
+        text-align: center;
+    }
+    .preis-aussehen .preis-beschreibung ul li {
+        font-size: 14px;
+        margin-top: 12px; 
+    } 
+    .meinung-container .meinung-container-links .untertitel {
+        font-size: 16px; 
+    } 
+    .meinung-container .meinung-container-links .titel {
+        font-size: 24px; 
+    }
+    .meinung-container .meinung-container-inhalt {
+        left: 0; 
+    }  
+    .einzelne-meinung .meinung-text .text {
+        font-size: 18px;
+        line-height: 32px; 
+    } 
+    .einzelne-meinung .meinung-bewerter .bewerter-bewertung {
+        padding-top: 15px; 
+    } 
+    .fragen-titel {
+        padding: .3em;
+    }
+    .fragen-label {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .kontakt-form-container .contact-titel {
+        font-size: 26px; 
+    } 
+    .einzelne-meinung {
+        margin: 25px;
+    }
+    .footer {
+        padding: 0;
+        margin-top: 12.5%;
+    }
+    .inhalt-slide .inhalt-slide-img {
+        margin: 0 auto;
+    }
+}
+/* --- ALLGEMEIN SPEZIFISCH MEDIA QUERIES --- */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .einzelne-dienstleistungen .dienstleistungen-titel-icon .dienstleistungen-titel a {
+        font-size: 36px;
+        line-height: 45px; 
+    } 
+    .preis-aussehen .preis-kopf .preis-monat .preis {
+        font-size: 24px;
+        margin-top: 32px;
+        line-height: 30px; 
+    } 
+    .preis-aussehen .preis-beschreibung ul li {
+        font-size: 16px;
+        margin-top: 16px; 
+    } 
+    .einzelne-meinung .meinung-bewerter .bewerter-bewertung {
+        padding-left: 0;
+        padding-top: 15px; 
+    } 
+}
